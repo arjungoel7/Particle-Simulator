@@ -11,7 +11,7 @@ The following variables can be redefined to change the simulation charecteristic
 2) ITERATIONS : This defines the total number of iterations in which the positions of the objects will be calculated
 3) TIME_STEP_LENGTH : This defines the total length of each time step
 
-# Testing
+## Testing
 
 1) Compile the program using : g++ nbody3d.cpp -o nbody3d
 2) Run it using : ./nbody3d
