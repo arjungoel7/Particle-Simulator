@@ -2,7 +2,9 @@
 
 This is a program which simulates an n-body particle system using equations of motion using C++. It predicts the motion of a group of particles interacting with each other through gravitational forces.
 
-Given the initial parameters of each particle (such as initial speed, position ) the program can predict the position of all the particle after any number of time steps.
+![N Body Sytem ](https://ars.els-cdn.com/content/image/1-s2.0-S2211379718333771-gr1.jpg)
+
+Given the initial parameters of each particle (such as initial speed, position ) the program can predict the position of all the particles after any number of time steps.
 
 The following variables can be redefined to change the simulation charecteristics
 1) N : This defines the number of particles in the system
@@ -11,7 +13,7 @@ The following variables can be redefined to change the simulation charecteristic
 
 # Testing
 
-Simpy compile the program using : g++ nbody3d.cpp -o nbody3d
-And run it using : ./nbody3d
+1) Compile the program using : g++ nbody3d.cpp -o nbody3d
+2) Run it using : ./nbody3d
 
 Note : The initialization for positions can also be changed to suit one's requirements
