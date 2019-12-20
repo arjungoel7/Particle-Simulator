@@ -79,26 +79,6 @@ __global__ void updateParameters(struct particle *body)
 	}
 }
 
-
-
-float getforce(float x1,float x2,float m1,float m2)   //calculates the force experienced by object at
-													  //position x1 due to the object at position x2
-{
-	float dis = abs(x1-x2);
-	if(dis < 0.2)
-		dis = 0.2;
-	float f = (m1*m2)/pow(dis,2);
-	
-	if(x1 < x2)         // x1 experiences a force in the +ve direction ( x1 ---> x2 where ---> is force)
-		return f;
-	else
-		return -f;		// x2 experiences a force in the -ve direction ( x2 <--- x1 where <--- is force)
-
-}
-
-
-
-
 int main()
 {
 	struct particle body[N];
